@@ -1,0 +1,138 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.pyc
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+virtualenv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.code-workspace
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+*.cover
+.coverage.*
+nosetests.xml
+coverage.xml
+*.coveragerc
+
+# Build artifacts
+*.log
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.svg
+*.dot
+*.gv
+
+# Temporary files
+*.tmp
+*.bak
+.cache/
+temp/
+tmp/
+*.swp
+*.swo
+*~
+
+# Project specific
+output/
+test_files/
+research/
+test_pdfs/
+test_samples/
+test_output/
+extracted/
+revisions/
+images/
+
+# CTF/Security artifacts
+*.audit
+*.provenance
+audit_logs/
+flag_*.txt
+cracked_*.txt
+*.hash
+*.wordlist
+
+# Generated docs
+docs/_build/
+docs/_static/
+docs/_templates/
+site/
+
+# OS specific
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# External tool outputs
+*.qdf
+*.qpdf
+*.gs
+ghostscript_output/
+
+# Benchmarks and profiling
+*.prof
+*.pstats
+benchmark_results/
+profiling_output/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment and config
+.env
+.env.local
+local_config.toml
+*.local.toml
+
+# Task/verification artifacts (keep in repo for tracking)
+!TASK*_VERIFICATION.md
+
+# Original files for reference
+ctfenhancedpdf.py
+enhanced_processpdf.py
+process_pdf.py
+create_test*.py

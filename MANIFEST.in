@@ -1,0 +1,6 @@
+include README.md
+include LICENSE
+include pdfautopsy.toml.example
+recursive-include pdfautopsy *.py
+recursive-include pdfautopsy *.typed
+recursive-include tests *.py
