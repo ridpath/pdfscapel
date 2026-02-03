@@ -2620,6 +2620,7 @@ def extract_web_cmd(
                 retry_config=retry_config,
                 rate_limit_config=rate_limit_config,
                 cookies=cookies_data if cookies_data else None,
+                headers=web_config_data.get('headers'),
                 output_file=Path(web_config_data.get('output_file', output or 'web_extraction.pdf')),
                 title=web_config_data.get('title', title),
                 min_image_size=web_config_data.get('min_image_size', min_size),
