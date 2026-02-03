@@ -4,6 +4,9 @@ __pycache__/
 *$py.class
 *.so
 .Python
+
+# Project images
+PDFScalpel.PNG
 build/
 develop-eggs/
 dist/
